@@ -5,7 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node seed.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "prisma migrate deploy",
+    "start": "node index.js"
+
   },
   "keywords": [],
   "author": "",
