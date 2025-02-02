@@ -7,7 +7,6 @@
     "seed": "node seed.js",
     "dev": "nodemon index.js",
     "start": "node index.js"
-
   },
   "keywords": [],
   "author": "",
@@ -17,10 +16,14 @@
     "@faker-js/faker": "^9.4.0",
     "@prisma/client": "^6.2.1",
     "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.9",
     "prisma": "^6.2.1"
+  },
+  "devDependencies": {
+    "prisma": "^6.3.0"
   }
 }
